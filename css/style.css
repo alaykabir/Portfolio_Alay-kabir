@@ -7,6 +7,11 @@ https://www.tooplate.com/view/2115-marvel
 */
 
 @import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,700");
+
+/* img {
+  border: 10px solid black;
+} */
+
 body {
   font-family: "Maven Pro", sans-serif;
   padding-top: 70px;
@@ -85,6 +90,10 @@ strong {
   font-weight: bold;
 }
 
+.about-image {
+  height: auto;
+}
+
 .custom-btn {
   background: #eee;
   color: #5b5b5b;
@@ -125,7 +134,7 @@ strong {
 }
 
 .animated-item {
-  font-size: 38px;
+  font-size: 36px;
   line-height: inherit;
   display: block;
   opacity: 0;
